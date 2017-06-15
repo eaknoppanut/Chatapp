@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eaknoppanut/Chatapp.git"
+    "url": "https://github.com/eaknoppanut/Chatapp.git"
   },
   "bugs": {
     "url": "https://github.com/eaknoppanut/Chatapp/issues"
