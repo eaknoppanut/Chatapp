@@ -1,7 +1,7 @@
 {
-  "name": "node-chat-app",
+  "name": "eaknoppanut",
   "version": "1.0.0",
-  "description": "",
+  "description": "some one think",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -18,5 +18,16 @@
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaknoppanut/Chatapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eaknoppanut/Chatapp/issues"
+  },
+  "homepage": "https://github.com/eaknoppanut/Chatapp#readme",
+  "keywords": [
+    "test"
+  ]
 }
