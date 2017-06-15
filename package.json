@@ -1,14 +1,14 @@
 {
-  "name": "node-chat-app",
+  "name": "eaknoppnut",
   "version": "1.0.0",
-  "description": "",
+  "description": "code",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  "author": "",
+  "author": "someone",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
@@ -18,5 +18,16 @@
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
     "nodemon": "^1.10.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaknoppanut/Chatapp.git"
+  },
+  "keywords": [
+    "same"
+  ],
+  "bugs": {
+    "url": "https://github.com/eaknoppanut/Chatapp/issues"
+  },
+  "homepage": "https://github.com/eaknoppanut/Chatapp#readme"
 }
