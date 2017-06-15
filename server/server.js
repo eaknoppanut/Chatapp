@@ -40,8 +40,7 @@ socket.on('disconnect', () => {
   
 //  })
 // })
-server.listen(port, () =>{
-console.log('Sever is up');
+
+server.listen(port, () => {
+  console.log(`Server is up on ${port}`);
 });
-
-
