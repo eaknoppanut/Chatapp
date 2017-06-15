@@ -4,13 +4,13 @@ const express = require('express');
 const socketIO = require('socket.io');
 const {generateMessage} = require('./untils/message')
 const publicPath = path.join(__dirname,'../public');
-
+const port =process.env.PORT || 3000
 var app = express();
 var server= http.createServer(app)
 var io = socketIO(server)
 
 app.use(express.static(publicPath));
-
+//app.get('/',function(req,res){
 io.on('connection', (socket) => {
     console.log('New User connected');
 
@@ -33,8 +33,14 @@ socket.on('disconnect', () => {
     console.log('User disconnect server');
    });
 });
-
-server.listen(3000, () =>{
+//})
+// server.listen(3000,'10.66.2.61',function(){
+// //  server.close(function(){
+// //    server.listen(3001,'10.66.6.54')
+  
+//  })
+// })
+server.listen(port, () =>{
 console.log('Sever is up');
 });
 
